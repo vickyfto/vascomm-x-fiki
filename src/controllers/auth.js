@@ -7,7 +7,7 @@ const googleAuth = async (req, res) => {
   const oauth2Client = new google.auth.OAuth2(
     process.env.GOOGLE_CLIENT_ID,
     process.env.GOOGLE_CLIENT_SECRET,
-    "http://localhost:3000/auth/google/callback"
+    process.env.GOOGLE_CLIENT_CALLBACK
   );
 
   const scopes = [
@@ -87,7 +87,7 @@ const authRedirect = async (req, res) => {
   const oauth2Client = new google.auth.OAuth2(
     process.env.GOOGLE_CLIENT_ID,
     process.env.GOOGLE_CLIENT_SECRET,
-    "http://localhost:3000/auth/google/callback"
+    process.env.GOOGLE_CLIENT_CALLBACK
   );
   const scopes = [
     "https://www.googleapis.com/auth/userinfo.email",
