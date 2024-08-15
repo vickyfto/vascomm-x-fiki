@@ -1,6 +1,5 @@
 # here is short of documentation
-
-## .env file is here : https://drive.google.com/file/d/1DDXTlYdw-SsTZw5PKNnlCeGcTBLX6YUt/view?usp=sharing
+## i'm insert .env file to remote repo, in real project .env must be really really confidential 
 
 ## qoute from me : 
 ### i know this endpoint a lot of security vulnerability
